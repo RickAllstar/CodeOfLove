@@ -2,7 +2,7 @@
 
 
 
-const textFYTitle = `💖Antes de qualquer coisa, respira fundo...
+const textFYTitle = `Eu te escolheria um milhão de vezes!
 `;
 
 document.addEventListener("DOMContentLoaded", () => {

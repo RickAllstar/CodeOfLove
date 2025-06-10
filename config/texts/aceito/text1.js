@@ -1,6 +1,6 @@
 // ⚠️ Modifique apenas as variáveis!
 
-var textAceito1 = `O começo da nossa história 💖`;
+var textAceito1 = `Finalmente aceitou!! (não te dei outra escolha)💖`;
 
 // ⚠️ Modifique apenas as variáveis!
 

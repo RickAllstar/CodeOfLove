@@ -1,6 +1,15 @@
 // ⚠️ Modifique apenas as variáveis!
 
-var textDeclaration4 = `Antes de qualquer coisa, respira fundo... Agora, por favor, leia essas palavras com o coração aberto, porque cada linha que escrevi aqui carrega uma parte de mim. Talvez eu não seja a melhor pessoa com palavras, mas dentro de mim existe um mundo inteiro de sentimentos que só fazem sentido quando penso em você.`;
+var textDeclaration4 = `Geleiras vão derreter
+Estrelas vão se apagar
+E eu pensando em ter você
+Pelo tempo que durar
+Coisas vão se transformar
+Para desaparecer
+E eu pensando em ficar
+A vida a te transcorrer
+E eu pensando em passar
+Pela vida com você`;
 
 // ⚠️ Modifique apenas as variáveis!
 

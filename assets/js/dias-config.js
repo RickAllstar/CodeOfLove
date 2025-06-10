@@ -9,16 +9,19 @@ function atualizarTempo() {
   const diff = agora - dataEspecialFormatada;
 
   const diasTotais = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const anos = Math.floor(diasTotais / 365);
-  const meses = Math.floor((diasTotais % 365) / 30);
+
+  // Se quiser limitar a 165 dias máximos:
+  const dias = Math.min(diasTotais, 165);
+  const meses = Math.floor(dias / 30);
+  const diasRestantes = dias % 30;
 
   let tempoFormatado = "";
-  if (anos > 0) tempoFormatado += `${anos} ${anos === 1 ? "ano" : "anos"}`;
-  if (meses > 0) tempoFormatado += `${anos > 0 ? " e " : ""}${meses} ${meses === 1 ? "mês" : "meses"}`;
-  if (!tempoFormatado) tempoFormatado = "menos de 1 mês";
+  if (meses > 0) tempoFormatado += `${meses} ${meses === 1 ? "mês" : "meses"}`;
+  if (diasRestantes > 0) tempoFormatado += `${meses > 0 ? " e " : ""}${diasRestantes} ${diasRestantes === 1 ? "dia" : "dias"}`;
+  if (!tempoFormatado) tempoFormatado = "menos de 1 dia";
 
   document.getElementById("tempo-formatado").textContent = tempoFormatado;
-  document.getElementById("dias").textContent = diasTotais;
+  document.getElementById("dias").textContent = dias;
 }
 
 document.addEventListener("DOMContentLoaded", () => {

@@ -1,6 +1,6 @@
 
 
-const textFY3 = `💖Então, com toda coragem, carinho e amor que existe em mim…
+const textFY3 = `💖Lembro de cada momento, como nas vezes que fomos ao parque, no shopping, cinema, e quando você veio pela primeira vez na minha casa e eu na sua...
 `;
 
 document.addEventListener("DOMContentLoaded", () => {
